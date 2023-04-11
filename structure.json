@@ -1,0 +1,30 @@
+{
+    "messages":{
+        "message_id": "ObjectId",
+        "channel": "ObjectId",
+        "content": "string",
+        "author": "ObjectId",
+        "createdAt": "timestamp",
+        "createdAtTimestamp": "timestamp",
+        "editedAt": "timestamp",
+        "editedAtTimestamp": "timestamp"
+    },
+    "channels":{
+        "channel_id": "ObjectId",
+        "type": "integrer",
+        "icon": "string",
+        "name": "string",
+        "recipient": "ObjectId",
+        "recipients": "ObjectId",
+        "createdAt": "timestamp",
+        "createdAtTimestamp": "timestamp",
+        "owner": "ObjectId"
+    },
+    "users":{
+        "user_id":"ObjectId",
+        "avatar": "string",
+        "username": "string",
+        "createdAt": "timestamp",
+        "createdAtTimestamp": "timestamp"
+    }
+}
